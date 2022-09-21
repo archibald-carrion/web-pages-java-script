@@ -9,3 +9,16 @@
 .myParagraph{
     color: blue;
 }
+
+
+.basic-button {
+    background-color: rgb(187, 20, 20);
+}
+
+.basic-button:hover{
+    background-color: brown;
+}
+
+.basic-button:active{
+    background-color: rgb(255, 0, 0);
+}

@@ -1,4 +1,5 @@
 // to run: node index.js
+/*
 let myVariable = "hello world";
 const other = 100;
 let isReal = true;
@@ -13,5 +14,11 @@ function myfunction(name) {
     console.log("hello " + name);
 
 }
-
 myfunction(123);
+*/
+
+//number = prompt("what is your number ?")
+// alert("helloworld");
+// document.write("hello world");
+
+

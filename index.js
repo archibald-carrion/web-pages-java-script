@@ -31,7 +31,7 @@ else {
 }
 
 */
-
+/*
 let myElement = document.createElement('p');
 let myText = document.createTextNode('my text');
 let myClass = document.createAttribute('class');
@@ -39,5 +39,19 @@ myClass.value = 'someclass';
 myElement.appendChild(myText);
 myElement.setAttributeNode(myClass);
 document.body.appendChild(myElement);
+*/
 
-document.querySelector('#myButton');
+let bouton = document.querySelector('#myButton');
+
+function addParagraph() {
+    let myElement = document.createElement('p');
+    let myText = document.createTextNode('hello');
+    let myClass = document.createAttribute('class');
+    myClass.value = 'someclass';
+    myElement.appendChild(myText);
+    myElement.setAttributeNode(myClass);
+    document.body.appendChild(myElement);
+}
+
+// bouton.addEventListener('click', addParagraph);
+bouton.onclick = addParagraph;

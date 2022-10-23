@@ -55,3 +55,6 @@ function addParagraph() {
 
 // bouton.addEventListener('click', addParagraph);
 bouton.onclick = addParagraph;
+
+list.appendChild(document.createElement('li'));
+list.children.item(2).textContent = 'Element 2';
